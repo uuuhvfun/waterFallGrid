@@ -1,0 +1,8 @@
+body,
+html {
+  overflow-x: hidden; /* 隐藏水平滚动 */
+}
+* {
+  box-sizing: border-box; /* 确保 padding 和 border 不会在宽度计算中被额外添加 */
+  max-width: 100%; /* 防止元素宽度超出其容器 */
+}
